@@ -160,11 +160,8 @@ const PROFILE_PATHS = new Set(
 );
 const SYSTEM_PROFILE_PATHS = new Set(["/etc/profile", "/etc/environment", "/etc/bash.bashrc"]);
 const PREFERRED_MODEL_SPECS = [
-	"github-copilot/gpt-5.4-mini",
-	"github-copilot/gpt-5-mini",
-	"github-copilot/gpt-4.1",
-	"anthropic/claude-3-5-haiku-latest",
-	"anthropic/claude-haiku-4-5",
+	"gpt-5.4-mini",
+	"gpt-5-mini"
 ];
 const PROJECT_CLAUDE_SETTINGS_FILES = [".claude/settings.user.json", ".claude/settings.json"];
 const GLOBAL_CLAUDE_SETTINGS_FILES = [resolve(HOME, ".claude/settings.user.json"), resolve(HOME, ".claude/settings.json")];
