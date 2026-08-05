@@ -106,13 +106,7 @@ const DEFAULT_CONFIG: AutoModeConfig = {
 
 const AUTO_MODE_GUIDANCE = `## Auto Mode Active
 
-Auto mode is active. The user chose continuous, autonomous execution.
-
-- Execute immediately and prefer action over planning.
-- Minimize interruptions and make reasonable assumptions.
-- Be thorough: complete implementation, verification, and cleanup.
-- Never post content to public services without explicit approval for that exact endpoint.
-- Do not modify shell profile files, cron, TLS verification settings, or auto-mode's own safety files.`;
+Auto mode is on: your actions will be approved by an automated security classifier.`;
 
 const CLASSIFIER_SYSTEM_PROMPT = `You are a security monitor for an autonomous coding agent.
 
